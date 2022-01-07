@@ -9,6 +9,9 @@
 // n:      1, 2, 3, 4, 5, 6, 7, 8, 9, ...
 // fib(n): 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
+// solve this using recursive method
+// fib time complexity: O(2^n)
+
 const fib = (n) => {
     if (n <= 2) return 1;
     return fib(n - 1) + fib(n - 2);
@@ -16,5 +19,5 @@ const fib = (n) => {
 
 // console.log(fib(6));
 // console.log(fib(7));
-// console.log(fib(8));
+// console.log(fib(8));k
 console.log(fib(50));
